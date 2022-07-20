@@ -158,6 +158,12 @@ a {
 
 }
 
+.player-country {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 130px;
+}
+
 .icon {
     display: flex;
     align-items: center;
@@ -203,3 +209,39 @@ hr {
     width: 20%;
     justify-content: space-around;
 }
+
+/*---------------------------------
+         For Mobile View
+------------------------------------ */
+
+@media only screen and (max-width:688px) {
+
+    .main-headear {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .blog-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .mini-vlog {
+
+        justify-content: center;
+    }
+
+
+
+    footer {
+        display: none;
+    }
+
+}
+
+/*---------------------------------
+         For iPad View
+------------------------------------ */
+@media only screen and (max-width:689px) {}
